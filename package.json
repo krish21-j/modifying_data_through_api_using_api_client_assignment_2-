@@ -1,10 +1,27 @@
 {
   "name": "express-simple-starter",
+  "version": "1.0.0",
   "private": true,
+  "description": "You have been hired by a local restaurant to **extend** the backend system for managing their online menu. In addition to creating and reading menu items, the restaurant needs the following functionality:",
+  "homepage": "https://github.com/krish21-j/modifying_data_through_api_using_api_client_assignment_2-#readme",
+  "bugs": {
+    "url": "https://github.com/krish21-j/modifying_data_through_api_using_api_client_assignment_2-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krish21-j/modifying_data_through_api_using_api_client_assignment_2-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "mongoose": "^8.10.0"
   }
 }
